@@ -9,7 +9,7 @@ ESP32-S3 üzerinde MicroPython ile çalışan, gerçek zamanlı GPS takibi, akti
 | Bileşen | Model | Arayüz |
 |---|---|---|
 | Mikrodenetleyici | ESP32-S3 | — |
-| GPS / GSM Modülü | SIM7500E | UART2 |
+| GPS / GSM Modülü | SIM7600E | UART2 |
 | IMU Sensörü | BNO055 | I2C |
 | Buzzer | Pasif | GPIO7 |
 | Pil Ölçümü | Voltaj Bölücü | ADC1 |
@@ -53,10 +53,9 @@ GPS/
 ├── main.py                  # Ana uygulama döngüsü
 ├── config.py                # Tüm pin ve parametre tanımları
 ├── deploy.py                # mpremote ile ESP32'ye yükleme scripti
-├── sim7600_gps.py           # Ham GPS test scripti
 │
 ├── drivers/
-│   ├── sim7500e.py          # SIM7500E GPS/GSM sürücüsü
+│   ├── sim7500e.py          # SIM7600E GPS/GSM sürücüsü
 │   ├── bno055.py            # BNO055 IMU sürücüsü
 │   ├── buzzer.py            # Buzzer sürücüsü ve ses desenleri
 │   └── battery.py           # Pil voltaj ölçüm sürücüsü
