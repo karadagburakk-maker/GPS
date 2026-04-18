@@ -21,7 +21,7 @@ ESP32-S3 üzerinde MicroPython ile çalışan, gerçek zamanlı GPS takibi, akti
 ## ✨ Özellikler
 
 **GPS & Konum**
-- SIM7500E modülü üzerinden gerçek zamanlı konum verisi
+- SIM7600E modülü üzerinden gerçek zamanlı konum verisi
 - NMEA → Ondalık derece dönüşümü
 - Enlem, boylam, rakım, hız bilgisi
 - İlk konum alım süresi ölçümü
